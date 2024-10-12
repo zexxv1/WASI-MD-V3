@@ -1,0 +1,28 @@
+# Query: src
+# Flags: WordMatch
+
+16 results - 4 files
+
+lib\converter.cjs:
+  9:       let tmp = path.join(__dirname, '../wasimain', + new Date + '.' + ext)
+
+src\uploader.js:
+  22:       resolve("https://telegra.ph" + data[0].wasimain);
+  78:       const result = 'https:' + $2('div#output > p.outfile > video > source').attr('wasimain');
+
+src\plugin\help.js:
+  115:                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./wasimain/waso.jpg')}, { upload: Matrix.waUploadToServer})), 
+  354:   image: fs.readFileSync('./wasimain/waso.jpg'), 
+  393:   image: fs.readFileSync('./src/waso.jpg'), 
+  434:   image: fs.readFileSync('./src/waso.jpg'), 
+  459:   image: fs.readFileSync('./src/waso.jpg'), 
+  498:   image: fs.readFileSync('./src/waso.jpg'), 
+  534:   image: fs.readFileSync('./src/waso.jpg'), 
+  562:   image: fs.readFileSync('./src/waso.jpg'), 
+  593:   image: fs.readFileSync('./src/waso.jpg'), 
+  625:   image: fs.readFileSync('./src/waso.jpg'), 
+  658:   image: fs.readFileSync('./src/waso.jpg'), 
+
+src\plugin\romovebg.js:
+  26:     const localFilePath = `./src/remobg-${uuidv4()}`;
+  27:     const outputFilePath = `./src/hremo-${uuidv4()}.png`;
